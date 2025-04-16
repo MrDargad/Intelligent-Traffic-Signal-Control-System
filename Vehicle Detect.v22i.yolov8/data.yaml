@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['mobil', 'motor', 'truck']
+
+roboflow:
+  workspace: yolov8-m2va2
+  project: vehicle-detect-qxprz
+  version: 22
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov8-m2va2/vehicle-detect-qxprz/dataset/22
